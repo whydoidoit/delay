@@ -1,5 +1,5 @@
 import Promise from 'bluebird'
-import timeout from 'timeout'
+import timeout from 'playcanvas-timeout'
 
 export default function(delay) {
     return new Promise(resolve=>{
